@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting</title>
+</head>
+<body>
+    <h1>The Abbreviation Element</h1>
+    <p>The <abbr title="Business Process Outsourcing">BPO</abbr> is a 
+        contract of a company to an outside provider of services.</p>
+        <!-- Abbreviation or an acronym, optionally with its expansion. --> 
+    
+    <h1>The Address element</h1>
+    <address> <!-- Represents the contact information for its nearest article or body element ancestor. -->
+        Written by <a href="mailto:deekshaku9968@gmail.com">DEEKSHA</a>.<br> 
+        Visit us at:<br>
+        Gmail.com<br>
+        H/No.- 45A, Qutub Vihar Phase-01, F-Block<br>
+        NEW DELHI-71
+    </address>   
+     
+<h1>The bold element</h1>
+<p>Name - <b>DEEKSHA</b>.</p> <!-- b tag is used for bolding text. -->
+
+<h1>The bdo element</h1>
+<p>This is me DEEKSHA here.</p>
+<p><bdo dir="rtl">I am from Delhi.</bdo></p> <!-- bdo tag is used to override the current text direction. -->
+
+<h1>The blockquote element</h1>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+<!-- blockquote tag specifies a section that is quoted from another source.And cite attribute specifies 
+    the source of the quotation. -->    
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+<h1>The code element</h1>
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+<!-- code tag is used to define a piece of computer code.The content inside is displayed in the browser's 
+default monospace font. -->
+
+<h1>The del element</h1>
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p> 
+<!-- del tag defines text that has been deleted from a document. -->
+<!-- ins tag defines a text that has been inserted into a document. -->
+
+<h1>The dfn element</h1>
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+<!-- dfn tag stands for the definition element, and it specifies a term that is 
+    going to be defined within the content. -->
+
+<h1>The em element</h1>
+<p>You <em>have</em> to hurry up!</p> 
+<!-- em tag define emphasized text.The content inside is typically displayed in italic. -->
+<p>We <em>cannot</em> live like this.</p>
+
+<h1>The i element</h1>
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+<!-- i tag is used for italic. -->
+
+<h1>The kbd element</h1>
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+<!-- kbd tag is used to define keyboard input.The content inside is displayed 
+    in the browser's default monospace font. -->
+
+
+<h1>The mark element</h1>
+<p>Do not forget to buy <mark>milk</mark> today.</p>    
+<!-- mark tag defines text  that should be marked or highlighted. -->
+
+<h1>The meter element</h1>
+<p>The meter element is used to display a gauge:</p>
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter> 
+<!-- meter tag defines a scalar measurement within a known range. -->
+
+
+<h1>The pre element</h1>
+<pre> <!-- pre tag defines preformatted text. -->
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+<h1>The progress element</h1>
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+<!-- progress tag represents the competion progress of a task. -->
+
+<h1>The q element</h1>
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q> <!-- q tag defines a short quotation. -->
+We hope they succeed.</p>
+
+<h1>The rp element</h1>
+<ruby> <!-- ruby tag specifies a ruby annotation. -->
+漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp> 
+<!-- rp tag can be used to provide parentheses around a ruby text, to be shown by browsers 
+    that do not support ruby annotations. -->
+</ruby>
+
+<h1>The samp element</h1>
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p> 
+<!-- samp tag is used to define sample output from a computer program.  -->
+
+<h1>The small element</h1>
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p> <!-- small tag defines smaller text. -->
+
+<h1>The strong element</h1>
+<p>This text is normal.</p>
+<p><strong>This text is important!</strong></p> 
+<!--strong tag is used to define text with strong importance. The content inside is typically displayed in bold. -->
+
+<h1>The sub and sup elements</h1>
+<p>This text contains <sub>subscript</sub> text.</p> <!-- sub tag defines subscript text. -->
+<p>This text contains <sup>superscript</sup> text.</p> <!-- sup tag defines superscript text. -->
+
+
+<h1>The time element</h1>
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+<!-- time tag defines a specific time (or datetime). -->
+<p>I buy some chocolates from shop on <time datetime="2008-02-19 20:00">Chocolate day</time>.</p>
+<p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+
+
+<h1>The var element</h1>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and 
+    <var>h</var> is the vertical height.</p> 
+<!-- var tag is used to defines a variable in programming or in a mathematical expression.The content 
+    inside is typically displayed in italic. -->
+
+
+
+</body>
+</html>
