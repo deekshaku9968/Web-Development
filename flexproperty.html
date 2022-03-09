@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage Layout(DEEKSHA)</title>
+    <style> 
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+main {
+    background: rgb(94, 33, 9);
+}
+
+.header {
+    background: palevioletred;
+}
+
+.hero{
+    background: yellowgreen;
+}
+
+.content{
+    border: 1px solid #000000;
+    background: #673ab7;
+}
+
+.sidebar{
+    border: 1px solid #000000;
+    background: lightsalmon;
+}
+
+.footer {
+    border: 1px solid #000000;
+    background: lightslategray;
+}
+.flex-container{
+    display: flex;
+}
+.content{
+    flex: 1;
+}
+.sidebar{
+    flex: 0 1 300px;
+}
+.wrapper{
+    margin: auto;
+    max-width: 75rem;
+}
+    </style>
+</head>
+<body>
+    <!-- Main Content -->
+<main>
+    Main
+
+    <!-- Header -->
+    <header class="header">
+        Header
+        <p>Lorem, ipsum dolor.</p>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        Hero
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta sequi illo distinctio alias atque temporibus ratione autem quae tempora aliquid provident earum, consequatur sed fugiat ducimus qui blanditiis veritatis molestiae, nam voluptatem id reiciendis eligendi? Numquam itaque quam alias iste ut, eveniet animi minima id iure, nisi, at asperiores expedita.</p>
+    </section>
+    <div class="flex-container wrapper">
+    <div class="flex-container">
+       <!-- Content -->
+       <section class="content">
+        Content
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illum eius fugiat numquam. Rerum esse ab quisquam quidem quaerat praesentium aut amet, veritatis dolor. Dolor aut, laboriosam quidem omnis reprehenderit iure officia ut quaerat vel eaque perspiciatis nostrum pariatur consectetur non nam cupiditate ullam autem reiciendis rem alias unde minima? Corrupti quas unde inventore necessitatibus porro, ea ipsam iusto numquam officia saepe ipsum. Error distinctio ipsam dolores earum pariatur placeat aliquid, odit unde fugiat? Aperiam magnam aspernatur iure eos neque doloremque similique. Ut recusandae iusto dignissimos! Sapiente, totam aliquam doloremque quis architecto rerum numquam ipsum odio perferendis commodi sunt cum, eius, neque in atque. Enim?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea velit aut saepe mollitia optio consectetur, iure obcaecati illum, architecto autem suscipit, vitae corporis in? Ratione ex veniam tempore quae maiores animi ullam, similique, harum quis necessitatibus aliquam blanditiis dolores eos architecto non dolor beatae amet praesentium! Cupiditate explicabo repudiandae a omnis quaerat, sed dignissimos atque mollitia officia et neque ex earum modi quisquam distinctio? Repellendus praesentium exercitationem animi quo doloremque et minima, recusandae nobis quidem veniam cum officiis incidunt obcaecati quia blanditiis neque ipsa, pariatur vero magnam voluptas modi aliquam maiores. Fuga qui voluptates animi praesentium corporis sint, aspernatur odio provident pariatur laboriosam aliquid voluptatibus rem nisi corrupti rerum esse reiciendis minima voluptas! Voluptatum, itaque laudantium ut dolores aperiam architecto.</p>
+    </section>
+    
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        Sidebar
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, optio iure debitis quisquam doloribus eius quos, saepe, in nemo ut suscipit minus accusantium. Corrupti, error? Atque consequatur quaerat magnam neque architecto temporibus repellendus deleniti debitis veritatis hic soluta rerum facilis vitae eaque ipsum pariatur, optio minima numquam vero! Illo rerum ea sapiente cumque perspiciatis et fuga quibusdam dolore nisi!</p>
+    </aside>
+</div>
+</div>
+    <!-- Footer -->
+    <footer class="footer">
+        Footer
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, modi.</p>
+    </footer>
+</main>
+</body>
+</html>
